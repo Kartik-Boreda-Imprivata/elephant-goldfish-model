@@ -1,0 +1,18 @@
+changes:
+  - id: advisor-strategy
+    title: Integrate the Advisor Strategy pattern into EGM
+    status: done
+    design: changes/advisor-strategy/design.md
+    pr_policy: batched
+    slices:
+      - id: advisor-integration
+        title: Add capability-based advisor escalation to EGM
+        status: done
+        interfaces:
+          - Canonical advisor policy at resources/advisor_escalation_protocol.md
+          - Host-specific routing guidance in docs/advisor-strategy.md
+          - Fresh-context, read-only Goldfish review contract
+        tasks:
+          - id: t1
+            path: changes/advisor-strategy/t1-integrate-advisor-strategy.md
+            status: done

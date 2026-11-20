@@ -27,6 +27,14 @@ repairs, and manages interactive negotiation checkpoints.
     the persistent conversation session that generated the target document (the
     Elephant) to recall earlier reasoning and craft higher-quality fixes.
 
+## Advisor Strategy
+
+Read and follow the shared [Advisor Escalation Protocol](../../resources/advisor_escalation_protocol.md).
+Resolve routine findings in the Elephant executor. Escalate only a material,
+unresolved conflict under the shared protocol, using a host-selected advisor
+route. Keep the conversation in the Elephant session; if no distinct model is
+available, report the conflict to the user.
+
 ## Inputs
 
 The caller or orchestration driver provides exactly these parameters:

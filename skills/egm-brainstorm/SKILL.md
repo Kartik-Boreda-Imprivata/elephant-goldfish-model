@@ -24,6 +24,13 @@ hypotheses by combining **interactive clarifying questions** with an automated
 (`concepts_brief.md`) that leads directly into `/egm-draft` or review with
 peers.
 
+## Advisor Strategy
+
+Read and follow the shared [Advisor Escalation Protocol](../../resources/advisor_escalation_protocol.md).
+Keep routine ideation and accumulated context in the Elephant executor.
+Escalate only protocol-defined critical decisions, using a host-selected
+advisor route; do not label a same-tier subagent an advisor.
+
 ## Delegation
 
 A Goldfish runs in a fresh context with no conversation history. Spawn each

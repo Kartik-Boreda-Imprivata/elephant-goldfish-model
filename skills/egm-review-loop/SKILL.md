@@ -31,6 +31,14 @@ unconditionally re-parses target line ranges before every iteration, spawns
 concurrent specialized Goldfish auditors based on configuration, and coordinates
 with the Elephant context to resolve findings.
 
+## Advisor Strategy
+
+Read and follow the shared [Advisor Escalation Protocol](../../resources/advisor_escalation_protocol.md).
+Use the executor tier for routine passes. Escalate only protocol-defined
+material conflicts or high-risk reviews through a host-selected advisor route.
+Goldfish stays fresh-context and read-only at every tier; report when the host
+cannot select a distinct advisor model.
+
 ## Delegation
 
 A Goldfish runs in a fresh context with no conversation history. Spawn each

@@ -17,6 +17,14 @@ In Claude Code or Cowork, read `${CLAUDE_PLUGIN_ROOT}/docs/claude.md` first.
 This skill guides the user through drafting a technical design document based on
 the aligned problem and requirements from the brainstorm phase.
 
+## Advisor Strategy
+
+Read and follow the shared [Advisor Escalation Protocol](../../resources/advisor_escalation_protocol.md).
+Keep routine drafting in the Elephant executor. Escalate only a
+protocol-defined decision that blocks the draft. Use a host-selected advisor
+route; if none is available, report the blocker rather than calling a
+same-tier subagent an advisor.
+
 ## Execution Constraints (CRITICAL)
 
 1.  You **MUST** read and apply the

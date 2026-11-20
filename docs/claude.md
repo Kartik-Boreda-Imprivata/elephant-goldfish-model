@@ -5,6 +5,12 @@ SPDX-License-Identifier: Apache-2.0
 
 # Claude Code integration
 
+For model-tier routing, see [Advisor Strategy with EGM](advisor-strategy.md).
+Claude adapters inherit the active session model; EGM does not pin the executor
+or advisor model in plugin configuration. Use an advisor or `opusplan` route
+only when the installed Claude Code version and session expose it. See the
+shared strategy guide for the targeted Agent-call fallback and context rules.
+
 Use Claude Code 2.1.271 or later for `omitClaudeMd` support. Older versions
 must not be treated as verified Goldfish isolation environments.
 

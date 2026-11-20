@@ -26,6 +26,7 @@ subagent and tell it to read that persona file first. Pass the prompt verbatim
 and wait for the report. If your harness cannot nest subagents,
 use direct dispatch instead of the synthesizer. See `docs/harnesses.md`.
 If your harness has no subagent tool, stop and tell the user: a review in the same context is not a Goldfish review.
+Read the shared [Advisor Escalation Protocol](../../resources/advisor_escalation_protocol.md).
 
 ## Execution Constraints (CRITICAL)
 

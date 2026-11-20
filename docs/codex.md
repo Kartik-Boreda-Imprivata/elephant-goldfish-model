@@ -5,6 +5,11 @@ SPDX-License-Identifier: Apache-2.0
 
 # Codex integration
 
+For model-tier routing, see [Advisor Strategy with EGM](advisor-strategy.md).
+The Codex plugin manifest does not choose models. Check the active subagent
+tool schema for model selection and fresh-context support before escalating;
+use the host's selected model and `fork_turns: "none"` when both are available.
+
 ## Install and locate the plugin
 
 For the desktop app, install the [published EGM plugin](https://chatgpt.com/plugins/plugins_6aeb90f47ec88191a3c107e01d3eb357). This listing is desktop-only.

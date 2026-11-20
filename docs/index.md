@@ -95,6 +95,8 @@ their strengths and weaknesses.
 *   [Getting Started](getting_started.md): Installation and core workflow.
 *   [Codex](codex.md): Plugin installation and native workflow verification.
 *   [Claude Code](claude.md): Plugin resources and isolated reviewers.
+*   [Advisor Strategy](advisor-strategy.md): Capability-based model routing,
+    model pairing, and cost/latency trade-offs.
 *   [Frequently Asked Questions (FAQ)](faq.md): Common questions and answers.
 *   [Framework Architecture](https://github.com/google/elephant-goldfish-model/blob/main/docs/designs/architecture.md): Detailed component
     design and lifecycle.

@@ -67,9 +67,11 @@ def test_runtime_bundle_is_complete_and_reproducible(
     assert "skills/egm-bootstrap/references/worker-return.schema.json" in names
     assert "skills/egm-bootstrap/references/templates.md" in names
     assert "resources/document_standards/feature-spec-standard.md" in names
+    assert "resources/advisor_escalation_protocol.md" in names
     assert "agents/design_critic.md" in names
     assert "docs/codex.md" in names
     assert "docs/claude.md" in names
+    assert "docs/advisor-strategy.md" in names
     assert "assets/icon.svg" in names
     for image in re.findall(r'<img\b[^>]*\bsrc="([^"]+)"', bundle.read("README.md").decode()):
       assert image in names, f"Unbundled README image: {image}"
@@ -360,6 +362,8 @@ def test_refuses_unbundled_services(source: Path, tmp_path: Path, field: str) ->
     "skills/egm-draft/references/design_doc.md",
     "agents/design_critic.md",
     "resources/execution_instructions.md",
+    "resources/advisor_escalation_protocol.md",
+    "docs/advisor-strategy.md",
     "resources/document_standards/zoom-out-standard.md",
     "docs/harnesses.md",
 ])
